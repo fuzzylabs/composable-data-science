@@ -6,7 +6,9 @@ Jupyter is both a blessing and a curse to data science projects. While the noteb
 
 We need code that can be decomposed into simple components that function well together, but without giving up on notebooks. 
 
-*TODO* BLOG POST LINK
+## Accompanying blog post
+
+The Fuzzy Labs [Composable Data Science blog post](http://fuzzylabs.ai/blog/composable-data-science) explains the details and motivations behind this repository.
 
 # Data
 
@@ -32,10 +34,14 @@ Having set up `virtualenv` and installed dependencies, run `jupyter notebook` fr
 
 ## Notebooks
 
-* [House Prices original](notebooks/house-prices-original.ipynb)
-* [House Prices refactored](notebooks/house-prices-refactored.ipynb)
+Both notebooks implement a solution to the [Kaggle house price competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques), which is solved with a Random Forest Regressor.
+
+* [House Prices original](notebooks/house-prices-original.ipynb) - all code in one notebook
+* [House Prices refactored](notebooks/house-prices-refactored.ipynb) - code refactored into composable modules
 
 ## Data
+
+The [data][data/] directory contains a training and test dataset in CSV format along with a data description file.
 
 ## Components
 
