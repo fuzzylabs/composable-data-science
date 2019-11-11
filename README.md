@@ -36,8 +36,8 @@ Having set up `virtualenv` and installed dependencies, run `jupyter notebook` fr
 
 Both notebooks implement a solution to the [Kaggle house price competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques), which is solved with a Random Forest Regressor.
 
-* [House Prices original](notebooks/house-prices-original.ipynb) - all code in one notebook
-* [House Prices refactored](notebooks/house-prices-refactored.ipynb) - code refactored into composable modules
+* [House Prices original](notebooks/house-prices-original.ipynb) - all code in one notebook.
+* [House Prices refactored](notebooks/house-prices-refactored.ipynb) - the same notebook but with core logic refactored into composable functions.
 
 ## Data
 
@@ -45,6 +45,4 @@ The [data][data/] directory contains a training and test dataset in CSV format a
 
 ## Components
 
-with Docker
-
-## Spark
+The [components][components/] directory contains Python code that is referenced in the refactored house price notebook.
