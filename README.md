@@ -41,8 +41,8 @@ Both notebooks implement a solution to the [Kaggle house price competition](http
 
 ## Data
 
-The [data][data/] directory contains a training and test dataset in CSV format along with a data description file.
+The [data](data/) directory contains a training and test dataset in CSV format along with a data description file.
 
 ## Components
 
-The [components][components/] directory contains Python code that is referenced in the refactored house price notebook.
+The [components](components/) directory contains Python code that is referenced in the refactored house price notebook.
